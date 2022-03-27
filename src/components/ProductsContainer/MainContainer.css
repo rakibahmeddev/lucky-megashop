@@ -16,9 +16,16 @@
   margin: 60px 0;
 }
 .cart-container {
+  position: sticky;
+  top: 90px;
   background-color: #00509d;
   color: #fff;
   padding: 10px 0;
+  height: 400px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 50px;
 }
 .product-container {
   padding: 0px 50px;
