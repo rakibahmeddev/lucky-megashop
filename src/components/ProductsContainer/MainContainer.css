@@ -16,8 +16,9 @@
   margin: 60px 0;
 }
 .cart-container {
-  background-color: #e2eafc;
-  color: #023047;
+  background-color: #00509d;
+  color: #fff;
+  padding: 10px 0;
 }
 .product-container {
   padding: 0px 50px;
