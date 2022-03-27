@@ -10,6 +10,13 @@ const MainContainer = () => {
       .then((res) => res.json())
       .then((data) => setProdcuts(data));
   }, []);
+
+  const [cart, setCart] = useState([]);
+  const handleAddToCart = (products) => {
+    console.log(products);
+    const newCart = [...cart, products];
+    setCart(newCart);
+  };
   return (
     <div className="main-container">
       <div className="title-bg">
@@ -20,12 +27,17 @@ const MainContainer = () => {
       <div className="shop-container">
         <div className="cart-container">
           <h3>Cart calculation</h3>
+          <p>Selected Items: {cart.length}</p>
         </div>
         <div className="product-container">
           <h3>Available Products: {products.length}</h3>
           <div className="products-grid">
             {products.map((product) => (
-              <Products key={product.id} product={product}></Products>
+              <Products
+                key={product.id}
+                product={product}
+                handleAddToCart={handleAddToCart}
+              ></Products>
             ))}
           </div>
         </div>
