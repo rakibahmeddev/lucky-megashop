@@ -20,6 +20,12 @@ const MainContainer = () => {
   const clearCart = () => {
     setCart([]);
   };
+  const randomProduct = (cart) => {
+    // console.log(cart);
+    const item = Math.round(Math.random() * cart.length);
+    const original = cart[item];
+    alert(original.name);
+  };
   return (
     <div className="main-container">
       <div className="title-bg">
@@ -32,7 +38,7 @@ const MainContainer = () => {
           <h3>Cart calculation</h3>
           <p>Selected Items: {cart.length}</p>
           <div className="cart-button-group">
-            <button>Choose 1 for me</button>
+            <button onClick={() => randomProduct(cart)}>Choose 1 for me</button>
             <button onClick={clearCart}>Clear cart</button>
           </div>
         </div>
