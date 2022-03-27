@@ -55,6 +55,39 @@ const MainContainer = () => {
           </div>
         </div>
       </div>
+
+      {/* QA section  */}
+      <div className="qa-container">
+        <h2 className="qa-title">Question and Answer</h2>
+        <div className="qa-grid">
+          <img
+            src="https://i.ytimg.com/vi/cubqaCd9MGw/maxresdefault.jpg"
+            alt=""
+          />
+          <div className="qa-text">
+            <h2>How React js works?</h2>
+            <p>
+              React is a JavaScript library (not a framework) that creates user
+              interfaces (UIs) in a predictable and efficient way using
+              declarative code. And React is component based, and also hook
+              based like useState, useEffect. So, I think component and hooks
+              are the key of React.
+            </p>
+          </div>
+        </div>
+        {/* item 2  */}
+        <div className="qa-grid">
+          <div className="qa-text">
+            <h2>How useState works?</h2>
+            <p>
+              useState is a Hook that allows you to have state variables in
+              functional components. You pass the initial state to this function
+              and it returns a variable with the current state value
+            </p>
+          </div>
+          <img src="https://daveceddia.com/images/useState-hook.png" alt="" />
+        </div>
+      </div>
     </div>
   );
 };
