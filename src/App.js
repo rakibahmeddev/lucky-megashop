@@ -1,10 +1,11 @@
+import logo from "./logo.svg";
 import "./App.css";
-import Container from "./Products-Container/Container";
+import MainContainer from "./Products-Container/MainContainer";
 
 function App() {
   return (
     <div className="App">
-      <Container></Container>
+      <MainContainer></MainContainer>
     </div>
   );
 }
