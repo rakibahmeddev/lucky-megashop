@@ -1,0 +1,18 @@
+.products {
+  background-color: #e2eafc;
+}
+.products img {
+  max-width: 100%;
+}
+.products h4 {
+  color: #023047;
+}
+.btn {
+  background-color: #fb8500;
+  color: #fff;
+}
+@media (max-width: 680px) {
+  .products img {
+    width: 50%;
+  }
+}

@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MainContainer from "./Products-Container/MainContainer";
+import MainContainer from "./components/ProductsContainer/MainContainer";
 
 function App() {
   return (
