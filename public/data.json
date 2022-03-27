@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/09/product-furniture-4-3.jpg",
+    "price": 380,
+    "name": "Wooden single drawer"
+  },
+  {
+    "id": "2",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/08/product-accessories-8.jpg",
+    "price": 450,
+    "name": "Smart watches wood edition"
+  },
+  {
+    "id": "3",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/09/product-furniture-19-2.jpg",
+    "price": 51,
+    "name": "Panton tunior chair"
+  },
+  {
+    "id": "4",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2017/04/dock-black-walnut-ip6-grid-A4_7.jpg",
+    "price": 180,
+    "name": "iPhone Dock"
+  },
+  {
+    "id": "5",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/08/product-furniture-14.jpg",
+    "price": 225,
+    "name": "Decoration for table pen"
+  },
+  {
+    "id": "6",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/09/product-furniture-8.jpg",
+    "price": 599,
+    "name": "Eames lounge chair"
+  },
+  {
+    "id": "7",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/09/furniture4.jpg",
+    "price": 166,
+    "name": "Senectus ac nisi a imperdiet"
+  },
+  {
+    "id": "8",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/09/product-furniture-10.jpg",
+    "price": 199,
+    "name": "Grand comfort chair"
+  },
+  {
+    "id": "9",
+    "picture": "https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2016/09/furniture5.jpg",
+    "price": 99,
+    "name": "Euismod aliquam parturient"
+  }
+]
