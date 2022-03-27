@@ -17,6 +17,9 @@ const MainContainer = () => {
     const newCart = [...cart, products];
     setCart(newCart);
   };
+  const clearCart = () => {
+    setCart([]);
+  };
   return (
     <div className="main-container">
       <div className="title-bg">
@@ -28,6 +31,10 @@ const MainContainer = () => {
         <div className="cart-container">
           <h3>Cart calculation</h3>
           <p>Selected Items: {cart.length}</p>
+          <div className="cart-button-group">
+            <button>Choose 1 for me</button>
+            <button onClick={clearCart}>Clear cart</button>
+          </div>
         </div>
         <div className="product-container">
           <h3>Available Products: {products.length}</h3>
