@@ -12,9 +12,11 @@ const MainContainer = () => {
   }, []);
   return (
     <div className="main-container">
-      <h1 className="top-title">
-        mega<span>Shop</span> eCommerce
-      </h1>
+      <div className="title-bg">
+        <h1 className="top-title">
+          mega<span>Shop</span> eCommerce
+        </h1>
+      </div>
       <div className="shop-container">
         <div className="cart-container">
           <h3>Cart calculation</h3>

@@ -3,12 +3,18 @@
 }
 .products img {
   max-width: 100%;
+  cursor: pointer;
 }
 .products-info {
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 .products-info h4 {
   color: #023047;
+  cursor: pointer;
+}
+.addToCart-parent {
+  width: 70%;
+  margin: auto;
 }
 button {
   display: flex;
@@ -16,7 +22,7 @@ button {
   align-items: center;
   font-size: 14px;
   font-weight: bold;
-  width: 60%;
+  width: 100%;
   margin: auto;
   cursor: pointer;
 }
@@ -34,6 +40,13 @@ button {
 }
 .add-to-cart-btn span svg {
   width: 22px;
+  margin: 0 5px;
+}
+@media (max-width: 992px) {
+  .addToCart-parent {
+    width: 100%;
+    font-size: 12px;
+  }
 }
 @media (max-width: 680px) {
   .products-info img {

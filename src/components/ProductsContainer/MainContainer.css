@@ -3,7 +3,13 @@
   margin: auto;
   padding: 20px 0;
 }
-.main-container .top-title {
+.main-container .title-bg {
+  background-color: #f3f4f6;
+  padding: 8px 0;
+}
+.main-container .title-bg {
+  position: sticky;
+  top: 0px;
   text-align: center;
   color: #023047;
 }
@@ -17,7 +23,7 @@
 }
 .cart-container {
   position: sticky;
-  top: 90px;
+  top: 150px;
   background-color: #00509d;
   color: #fff;
   padding: 10px 0;
@@ -39,6 +45,14 @@
   gap: 30px;
 }
 @media (max-width: 992px) {
+  .shop-container {
+    display: block;
+  }
+  .cart-container {
+    position: static;
+    width: 60%;
+    margin: auto;
+  }
   .product-container .products-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
